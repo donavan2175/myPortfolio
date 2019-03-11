@@ -41,7 +41,7 @@ p {
     margin: 60px;
 }
 
-#work {
+#profile-page, #layout, #registration-form, #style-guide, #game, #gallery, #web-app, #employee {
     display: inline-block;
     margin: 25px 10px;
 }
@@ -51,7 +51,7 @@ p {
     top: 50px;
 }
 
-.modal {
+.modal, .modal2, .modal3, .modal4, .modal5, .modal6, .modal7, .modal8 {
     display: none; 
     position: fixed; 
     z-index: 1; 
@@ -64,7 +64,7 @@ p {
     background-color: rgba(0,0,0,0.4); 
   }
   
-
+  
   .modal-content {
     background-color: #fefefe;
     margin: 15% auto; 
@@ -93,18 +93,15 @@ p {
         flex-direction: row;
         flex-wrap: wrap;
     }
-
-    #work {
+    
+    #profile-page, #layout, #registration-form, #style-guide, #game, #gallery, #web-app, #employee {
         flex: 40%;
     }
 }
 
 @media(min-width: 1024px) {
-    .projects {
-         
-    }
 
-    #work {
+    #profile-page, #layout, #registration-form, #style-guide, #game, #gallery, #web-app, #employee {
         flex: 25%;
         margin: 0 auto;
         margin: 30px;
