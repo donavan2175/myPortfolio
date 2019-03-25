@@ -41,7 +41,7 @@ p {
     margin: 60px;
 }
 
-#profile-page, #layout, #registration-form, #style-guide, #game, #gallery, #web-app, #employee {
+#profile-page, #layout, #registration-form, #style-guide, #game, #gallery, #web-app, #employee, #proFighter, #showflix, #sons {
     display: inline-block;
     margin: 25px 10px;
 }
@@ -51,7 +51,7 @@ p {
     top: 50px;
 }
 
-.modal, .modal2, .modal3, .modal4, .modal5, .modal6, .modal7, .modal8 {
+.modal, .modal2, .modal3, .modal4, .modal5, .modal6, .modal7, .modal8, .modal9, .modal10, .modal11 {
     display: none; 
     position: fixed; 
     z-index: 1; 
@@ -94,14 +94,14 @@ p {
         flex-wrap: wrap;
     }
     
-    #profile-page, #layout, #registration-form, #style-guide, #game, #gallery, #web-app, #employee {
+    #profile-page, #layout, #registration-form, #style-guide, #game, #gallery, #web-app, #employee #proFighter, #showflix, #sons {
         flex: 40%;
     }
 }
 
 @media(min-width: 1024px) {
 
-    #profile-page, #layout, #registration-form, #style-guide, #game, #gallery, #web-app, #employee {
+    #profile-page, #layout, #registration-form, #style-guide, #game, #gallery, #web-app, #employee #proFighter, #showflix, #sons {
         flex: 25%;
         margin: 0 auto;
         margin: 30px;
