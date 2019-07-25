@@ -6,6 +6,11 @@ body {
     background-color: rgb(51, 41, 41);
 }
 
+h1, h2 {
+    font-family: 'Metal Mania', cursive;
+
+}
+
 header {
     text-align: center;
     background: url('../images/background-image.jpg') no-repeat top center;
@@ -35,15 +40,26 @@ header {
 
 p {
     line-height: 2em;
+    font-family: 'Roboto Slab', serif;
 }
 
 .projects {
     margin: 60px;
 }
 
-#profile-page, #layout, #registration-form, #style-guide, #game, #gallery, #web-app, #employee, #proFighter, #showflix, #sons {
+#profile-page, #layout, #registration-form, #style-guide, #game, #gallery, #web-app, #employee, #proFighter, #showflix, #sons, #form {
     display: inline-block;
     margin: 15px 5px;
+}
+
+#profile-page {
+    margin-left: 14px;
+}
+
+#style-guide, #game, #gallery, #web-app, #proFighter, #sons {
+    margin-right: 50px;
+    position: relative;
+    left: 20px;
 }
 
 #project-text {
@@ -51,7 +67,7 @@ p {
     top: 50px;
 }
 
-.modal, .modal2, .modal3, .modal4, .modal5, .modal6, .modal7, .modal8, .modal9, .modal10, .modal11 {
+.modal, .modal2, .modal3, .modal4, .modal5, .modal6, .modal7, .modal8, .modal9, .modal10, .modal11, .modal12 {
     display: none; 
     position: fixed; 
     z-index: 1; 
@@ -94,14 +110,14 @@ p {
         flex-wrap: wrap;
     }
     
-    #profile-page, #layout, #registration-form, #style-guide, #game, #gallery, #web-app, #employee, #proFighter, #showflix, #sons {
+    #profile-page, #layout, #registration-form, #style-guide, #game, #gallery, #web-app, #employee, #proFighter, #showflix, #sons, #form {
         flex: 40%;
     }
 }
 
 @media(min-width: 1024px) {
 
-    #profile-page, #layout, #registration-form, #style-guide, #game, #gallery, #web-app, #employee, #proFighter, #showflix, #sons {
+    #profile-page, #layout, #registration-form, #style-guide, #game, #gallery, #web-app, #employee, #proFighter, #showflix, #sons, #form {
         flex: 25%;
         margin: 0 auto;
         margin: 30px;

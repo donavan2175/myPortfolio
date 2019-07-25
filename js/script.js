@@ -10,6 +10,7 @@ var modal8 = document.getElementById('myModal8');
 var modal9 = document.getElementById('myModal9')
 var modal10 = document.getElementById('myModal10')
 var modal11 = document.getElementById('myModal11')
+var modal12 = document.getElementById('myModal12')
 
 var profilePage = document.getElementById("profile-page");
 var layout = document.getElementById("layout");
@@ -22,6 +23,7 @@ var employee = document.getElementById("employee");
 var proFighter = document.getElementById("proFighter");
 var sons = document.getElementById("sons");
 var showflix = document.getElementById("showflix");
+var form = document.getElementById("form");
 
 
 
@@ -36,6 +38,7 @@ var span7 = document.getElementsByClassName("close")[7];
 var span8 = document.getElementsByClassName("close")[8];
 var span9 = document.getElementsByClassName("close")[9];
 var span10 = document.getElementsByClassName("close")[10];
+var span11 = document.getElementsByClassName("close")[11];
 
 
 profilePage.onclick = function() {
@@ -82,6 +85,12 @@ showflix.onclick = function() {
   modal11.style.display = "block";
 }
 
+form.onclick = function() {
+  modal12.style.display = "block";
+}
+
+
+ 
 
 span.onclick = function() {
   modal.style.display = "none";
@@ -127,6 +136,11 @@ span10.onclick = function() {
   modal11.style.display = "none";
 }
 
+span11.onclick = function() {
+  modal12.style.display = "none";
+}
+
+
 
 
 
@@ -155,5 +169,7 @@ window.onclick = function(event) {
     modal10.style.display = "none";
   } else if (event.target == modal11) {
     modal11.style.display = "none";
+  } else if (event.target == modal12) {
+    modal12.style.display = "none";
   }
 }
